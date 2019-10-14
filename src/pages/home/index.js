@@ -13,9 +13,9 @@ const Home = () => {
         </div>
       </div>
       <div className={style.about}>
-        <h3>Photo Real Hologram Capture Service</h3>
-        <div>
-          <div>
+        <h3 className={style.h3}>Photo Real Hologram Capture Service</h3>
+        <div className={style.about_container}>
+          <div className={style.about_left}>
             <iframe 
               width="560" 
               height="315" 
@@ -29,7 +29,7 @@ const Home = () => {
               webkitallowfullscreen="webkitallowfullscreen">
             </iframe>
           </div>
-          <div>
+          <div className={style.about_right}>
             <p>
               What we offer is the culminated result of a dedicated team who bring years of experience 
               to the table. We have staff that have worked as both artists and skilled technicians in 

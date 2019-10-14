@@ -4,3 +4,23 @@
   height: 100vh;
   width: auto;
 }
+
+.hero_header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  padding: 0 0 5% 5%;
+  color: white;
+}
+
+.h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.h2{
+  font-size: 1.3rem;
+  width: 50%;
+  margin-top: 10px;
+}

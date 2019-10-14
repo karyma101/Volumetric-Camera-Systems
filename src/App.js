@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import { Route } from 'react-router-dom'
+
+import Navbar from './components/Navbar'
+import Home from './pages/home'
+
+import './App.css'
 
 const App = () => {
   return (
-    <h1>App</h1>
+    <Fragment>
+      <Navbar />
+      <Route to="/">
+        <Home />
+      </Route>
+    </Fragment>
   )
 }
 

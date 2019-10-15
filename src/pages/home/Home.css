@@ -75,3 +75,26 @@
   color: white;
   padding: 100px 0;
 }
+
+.technology_container {
+  display: flex;
+}
+
+.technology_group {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2%;
+  text-align: center;
+}
+
+.technology_image_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Summary */
+
+.summary {
+  background: url('../../../public/images/banner.png')
+}

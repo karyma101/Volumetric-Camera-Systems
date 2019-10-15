@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 import style from './Home.css'
-import brainImg from '../../../public/images/brain.png'
+import { brainIcon, cloudIcon, computerIcon, targetIcon } from '../../../public/images/technologyIcons'
 
 const Home = () => {
   return (
@@ -20,13 +20,9 @@ const Home = () => {
             <iframe
               className={style.about_video}
               src="https://www.youtube.com/embed/y2u0ZVWddRs"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen="allowfullscreen"
-              mozallowfullscreen="mozallowfullscreen"
-              msallowfullscreen="msallowfullscreen"
-              oallowfullscreen="oallowfullscreen"
-              webkitallowfullscreen="webkitallowfullscreen">
+              allowFullScreen="allowfullscreen">
             </iframe>
           </div>
           <div className={style.about_right}>
@@ -44,14 +40,40 @@ const Home = () => {
 
       <div className={style.technology}>
         <h3 className={style.h3}>Core Technology</h3>
-        <div>
-          <img src={brainImg}></img>
-          <p></p>
+        <div className={style.technology_container}>
+          <div className={style.technology_group}>
+            <div className={style.technology_image_container}>
+              <img src={computerIcon}></img>
+            </div>
+            <p>Cross-platform integration with 3D platforms (i.e. Sketchfab, Facebook, Adobe Aero).</p>
+          </div>
+          <div className={style.technology_group}>
+            <div className={style.technology_image_container}>
+              <img src={cloudIcon}></img>
+            </div>
+            <p>Fast processing with scalable cloud-based rendering systems.</p>
+          </div>
+          <div className={style.technology_group}>
+            <div className={style.technology_image_container}>
+              <img src={brainIcon}></img>
+            </div>
+            <p>Using a novel pre-trained neural net to enhance data with machine learning.</p>
+          </div>
+          <div className={style.technology_group}>
+            <div className={style.technology_image_container}>
+              <img src={targetIcon}></img>
+            </div>
+            <p>Dynamic compression enables device agnostic cross compatibility. Mobile/VR/AR.</p>
+          </div>
         </div>
       </div>
 
-      <div>
-        <h3 className={style.h3}>Our Partners & Sponsors</h3>
+      <div className={style.summary}>
+        <h3 className={style.h3}>Why Choose Us?</h3>
+        <ul>
+          <li>Faster and cheaper to use than all other capture stage systems on the market.</li>
+          <li></li>
+        </ul>
       </div>
     </Fragment>
   )

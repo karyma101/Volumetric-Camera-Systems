@@ -1,5 +1,5 @@
 .hero {
-  background: url('../../../public/hero.png');
+  background: url('../../../public/images/hero.png');
   background-size: cover;
   height: 100vh;
   width: auto;
@@ -17,6 +17,7 @@
 .h1 {
   font-size: 2rem;
   font-weight: 800;
+  text-transform: uppercase;
 }
 
 .h2 {
@@ -29,6 +30,8 @@
 
 .about {
   padding: 100px 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .h3 {
@@ -37,19 +40,38 @@
   text-align: center;
   width: 100%;
   margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 .about_container {
   display: flex;
 }
 
+.about_video {
+  width: 600px;
+  height: 400px;
+}
+
 .about_left {
-  padding-left: 60px;
-  padding-right: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .about_right {
-  padding-left: 30px;
-  padding-right: 60px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
 
+.about_paragraph {
+  text-indent: 50px;
+}
+
+/* Technology */
+
+.technology {
+  background-color: black;
+  color: white;
+  padding: 100px 0;
 }

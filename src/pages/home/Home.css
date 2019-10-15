@@ -1,6 +1,7 @@
 .hero {
   background: url('../../../public/images/hero.png');
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   width: auto;
 }
@@ -96,5 +97,37 @@
 /* Summary */
 
 .summary {
-  background: url('../../../public/images/banner.png')
+  background: url('../../../public/images/banner.png');
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+}
+
+.summary_list {
+  margin-left: 30px;
+  margin: 0 30%;
+}
+
+.summary_list_item {
+  margin-bottom: 20px;
+}
+
+/* Sponsors */
+
+.sponsors {
+  padding: 100px 0;
+  background-color: #2E2E2E;
+  color: white;
+}
+
+.sponsors_container {
+  text-align: center;
+}
+
+.sponsors_logo {
+  padding: 30px;
+  max-width: 250px;
+  width: auto;
+  height: auto;
 }

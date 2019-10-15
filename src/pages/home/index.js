@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react'
 
 import style from './Home.css'
+import Contact from '../../components/Contact'
 import { brainIcon, cloudIcon, computerIcon, targetIcon } from '../../../public/images/technologyIcons'
+import { audezeLogo, borisfxLogo, levitezerLogo, mettleLogo, nvidiaLogo, rshiftLogo, spatialLogo } from '../../../public/images/sponsorLogos'
 
 const Home = () => {
   return (
@@ -70,11 +72,33 @@ const Home = () => {
 
       <div className={style.summary}>
         <h3 className={style.h3}>Why Choose Us?</h3>
-        <ul>
-          <li>Faster and cheaper to use than all other capture stage systems on the market.</li>
-          <li></li>
+        <ul className={style.summary_list}>
+          <li className={style.summary_list_item}>Faster and cheaper to use than all other capture stage systems on the market.</li>
+          <li className={style.summary_list_item}>Fully portable volumetric cameras, allow for true freedom to capture your vision.</li>
+          <li className={style.summary_list_item}>Shoot anywhere with cinematic quality, no green screen is needed.</li>
+          <li className={style.summary_list_item}>No large crew needed to operate.</li>
+          <li className={style.summary_list_item}>"Frontal only" or "Complete 360 fullbody" capture options available.</li>
+          <li className={style.summary_list_item}>No need to bring your actors to a capture studio.</li>
+          <li className={style.summary_list_item}>Field operation compatible with battery options for remote usage.</li>
         </ul>
       </div>
+
+      <div className={style.sponsors}>
+        <h3 className={style.h3}>Our Partners & Sponsors</h3>
+        <div className={style.sponsors_container}>
+          <img className={style.sponsors_logo} src={audezeLogo} />
+          <img className={style.sponsors_logo} src={borisfxLogo} />
+          <img className={style.sponsors_logo} src={levitezerLogo} />
+          <img className={style.sponsors_logo} src={mettleLogo} />
+          <img className={style.sponsors_logo} src={levitezerLogo} />
+          <img className={style.sponsors_logo} src={mettleLogo} />
+          <img className={style.sponsors_logo} src={nvidiaLogo} />
+          <img className={style.sponsors_logo} src={rshiftLogo} />
+          <img className={style.sponsors_logo} src={spatialLogo} />
+        </div>
+      </div>
+
+      <Contact />
     </Fragment>
   )
 }

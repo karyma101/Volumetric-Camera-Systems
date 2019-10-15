@@ -1,4 +1,35 @@
 .navbar {
   position: absolute;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+
+.navlinks_item {
+  margin: 0 10px;
+}
+
+.active {
+  font-weight: 600;
 }

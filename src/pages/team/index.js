@@ -1,7 +1,12 @@
 import React from 'react'
+import style from './Team.css'
 
 const Team = () => {
-  return <h1>Team</h1>
+  return (
+    <div className={style.team}>
+
+    </div>
+  )
 }
 
 export default Team

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 import style from './Home.css'
-import Contact from '../../components/Contact'
+import ContactForm from '../../components/ContactForm'
 import { brainIcon, cloudIcon, computerIcon, targetIcon } from '../../../public/images/technologyIcons'
 import { audezeLogo, borisfxLogo, levitezerLogo, mettleLogo, nvidiaLogo, rshiftLogo, spatialLogo } from '../../../public/images/sponsorLogos'
 
@@ -98,7 +98,7 @@ const Home = () => {
         </div>
       </div>
 
-      <Contact />
+      <ContactForm />
     </Fragment>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from './Contact.css'
+import style from './ContactForm.css'
 
 const Contact = () => {
   return (

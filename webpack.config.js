@@ -54,6 +54,10 @@ module.exports = {
         test: /\.png$/,
         loader: 'file-loader'
       },
+      {
+        test: /\.jpeg$/,
+        loader: 'file-loader'
+      },
     ]
   },
   devServer: {

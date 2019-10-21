@@ -12,7 +12,7 @@ const Navbar = () => {
         <h1 className={style.title}>Volumetric Camera Systems</h1>
       </Link>
       <ul className={style.navlinks}>
-        <NavLink to="/" className={style.navlinks_item} activeClassName={style.active}>Home</NavLink>
+        <NavLink to="/" exact className={style.navlinks_item} activeClassName={style.active}>Home</NavLink>
         |
         <NavLink to="/team" className={style.navlinks_item} activeClassName={style.active}>Team</NavLink>
         |

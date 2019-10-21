@@ -1,4 +1,51 @@
 .team {
   background-color: black;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  margin: 50px 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.h5 {
+  color: white;
+  font-weight: 300;
+  width: 50%;
+  text-align: center;
+}
+
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 50px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  height: 300px;
+  margin: 20px;
 }

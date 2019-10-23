@@ -45,27 +45,27 @@ const Home = () => {
         <div className={style.technology_container}>
           <div className={style.technology_group}>
             <div className={style.technology_image_container}>
-              <img src={computerIcon}></img>
+              <img className={style.techonology_image} src={computerIcon} />
             </div>
-            <p>Cross-platform integration with 3D platforms (i.e. Sketchfab, Facebook, Adobe Aero).</p>
+            <p className={style.technology_paragraph}>Cross-platform integration with 3D platforms (i.e. Sketchfab, Facebook, Adobe Aero).</p>
           </div>
           <div className={style.technology_group}>
             <div className={style.technology_image_container}>
-              <img src={cloudIcon}></img>
+              <img className={style.techonology_image} src={cloudIcon} />
             </div>
-            <p>Fast processing with scalable cloud-based rendering systems.</p>
+            <p className={style.technology_paragraph}>Fast processing with scalable cloud-based rendering systems.</p>
           </div>
           <div className={style.technology_group}>
             <div className={style.technology_image_container}>
-              <img src={brainIcon}></img>
+              <img className={style.techonology_image} src={brainIcon} />
             </div>
-            <p>Using a novel pre-trained neural net to enhance data with machine learning.</p>
+            <p className={style.technology_paragraph}>Using a novel pre-trained neural net to enhance data with machine learning.</p>
           </div>
           <div className={style.technology_group}>
             <div className={style.technology_image_container}>
-              <img src={targetIcon}></img>
+              <img className={style.techonology_image} src={targetIcon} />
             </div>
-            <p>Dynamic compression enables device agnostic cross compatibility. Mobile/VR/AR.</p>
+            <p className={style.technology_paragraph}>Dynamic compression enables device agnostic cross compatibility. Mobile/VR/AR.</p>
           </div>
         </div>
       </div>

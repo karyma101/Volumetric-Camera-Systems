@@ -45,25 +45,25 @@ const Home = () => {
         <div className={style.technology_container}>
           <div className={style.technology_group}>
             <div className={style.technology_image_container}>
-              <img className={style.techonology_image} src={computerIcon} />
+              <img className={style.technology_image} src={computerIcon} />
             </div>
             <p className={style.technology_paragraph}>Cross-platform integration with 3D platforms (i.e. Sketchfab, Facebook, Adobe Aero).</p>
           </div>
           <div className={style.technology_group}>
             <div className={style.technology_image_container}>
-              <img className={style.techonology_image} src={cloudIcon} />
+              <img className={style.technology_image} src={cloudIcon} />
             </div>
             <p className={style.technology_paragraph}>Fast processing with scalable cloud-based rendering systems.</p>
           </div>
           <div className={style.technology_group}>
             <div className={style.technology_image_container}>
-              <img className={style.techonology_image} src={brainIcon} />
+              <img className={style.technology_image} src={brainIcon} />
             </div>
             <p className={style.technology_paragraph}>Using a novel pre-trained neural net to enhance data with machine learning.</p>
           </div>
           <div className={style.technology_group}>
             <div className={style.technology_image_container}>
-              <img className={style.techonology_image} src={targetIcon} />
+              <img className={style.technology_image} src={targetIcon} />
             </div>
             <p className={style.technology_paragraph}>Dynamic compression enables device agnostic cross compatibility. Mobile/VR/AR.</p>
           </div>
